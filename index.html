@@ -1,202 +1,175 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./media.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
 </head>
-
-<body>
-    <header>
-        <div class="header-fon">
-            <div class="conteiner header header-padding">
-                <div class="logo align-items">
-                    <img src="./img/logo.svg" alt="logo">
-                    <a href="#" class="logo-text text">Ink. House</a>
+<body style="color: #333333;">
+    <div class="header">
+        <div class="header_block">
+            <a href="#" class="logo"><img src="./images/logo.svg" alt="logo"></a>
+            <div class="header_kontakts">
+                <div class="header_kontakt_1">
+                    <ul>
+                        <li class="vopros">По вопросам и предложениям</li>
+                        <li><a href="#" class="kontakt_mail">pionerrr@sila.ru</a></li>
+                    </ul>
+                    
                 </div>
-                <nav class="header-nav align-items" id="header-navs">
-                    <div>
-                        <div class="btm-burger" id="btm-burger" onclick="burgerOpen()">
-                            <img src="./img/menu-burger.svg" alt="" class="burger" id="nav-btn-img" height="30px"
-                                width="30px">
-                        </div>
-                        <ul class="list">
-                            <li class="text-decoration"><a href="#reprodukciya" class="header-li">Репродукции</a></li>
-                            <li class="text-decoration"><a href="#newcoiiection" class="header-li">Новинки</a></li>
-                            <li class="text-decoration text-decoration-posledniy "><a href="#nasha_comanda" class="header-li ">О
-                                    нас</a></li>
-                        </ul>
+                <div class="header_kontakt_2">
+                    <ul>
+                        <li class="consultacia">Для консультаций</li>
+                        <li><a href="#" class="kontakt_mail nomer_tel">+7 (495) 456-24-21</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="header_block_ssilki">
+            <nav class="ssilki">
+                <a href="#" class="header_ssilki">Главная</a>
+                <a href="#" class="header_ssilki">О предприятии</a>
+                <a href="#" class="header_ssilki">Новости</a>
+                <a href="#" class="header_ssilki">Продукция</a>
+                <a href="#" class="header_ssilki">Услуги</a>
+                <a href="#" class="header_ssilki">Поддержка</a>
+                <a href="#" class="header_ssilki">География поставок</a>
+                <a href="#" class="header_ssilki">Контакты</a>
+            </nav>
+            <div class="perezvonite">
+                <a href=""><img src="./images/telephone.svg" alt="" class="telephone"></a>
+                <a href="#" class="header_ssilki perezvon">ПЕРЕЗВОНИТЕ МНЕ</a>
+            </div>
+        </div>
+        <div class="glav_text">
+            <h1 class="text_h1">Российский завод силовых машин</h1>
+            <p class="text">научно-производственное предприятие, занимающееся разработкой и производством силовых машин.</p>
+        </div>
+        <img src="./images/glav_img.svg" alt="" class="glav_img">
+        <h2 class="predpriyatie_h2">О предприятии</h2>
+        <div class="block_predpriyatie_txt">
+            <p class="predpriyatie_txt text_1">За 20 лет развития в структуре завода сформирован мощный производственный потенциал, научно-технический центр, испытательная лаборатория, современная база, учебный центр и широкая сеть региональных и международных представительств в Российской Федерации, Республике Беларусь, Узбекистане и Казахстане.</p>
+            <p class="predpriyatie_txt">В номенклатуре выпускаемой НПП «ПИОНЕР» продукции найдется все, что необходимо для успешного решения задачи автоматизации технологических процессов на любом предприятии. Все средства измерения производства «ПИОНЕР» внесены в Государственный реестр СИ и имеют необходимые разрешительные документы.</p>
+            <p class="predpriyatie_txt text_3">Ежегодно НПП «ПИОНЕР» реализует несколько проектов по модернизации серийных и разработке новых приборов, призванные в наибольшей степени удовлетворять возрастающие требования наших заказчиков.</p>
+        </div>
+        <div class="header_block">
+            <img src="./images/svarshik.svg" alt="svarshik">
+            <img src="./images/cars.svg" alt="cars">
+        </div>
+        <h2 class="predpriyatie_h2">Продукция</h2>
+        <div class="block_produtcia">
+            <div class="produkcia_1 produkcia">
+                <img src="./images/1.svg" alt="" class="img_1">
+                <h3>Сигнализатор уровня</h3>
+                <div class="block_podrobnee">
+                    <p class="podrobnee_p">Подробнее</p> <img src="./images/Vector.svg" alt="">
+                </div>
+            </div>
+            <div class="produkcia">
+                <img src="./images/2.svg" alt="" class="img_2">
+                <h3>Датчики давления</h3>
+                <div class="block_podrobnee">
+                    <p class="podrobnee_p">Подробнее</p>
+                    <img src="./images/Vector.svg" alt="">
+                </div>
+            </div>
+            <div class="produkcia produkcia_exit">
+                <img src="./images/3.svg" alt="" class="img_3">
+                <h3>ПИД-регуляторы</h3>
+                <div class="block_podrobnee">
+                    <p class="podrobnee_p">Подробнее</p>
+                    <img src="./images/Vector.svg" alt="">
+                </div>
+            </div>
+            <div class="produkcia produkcia_down">
+                <img src="./images/4.svg" alt="" class="img_4">
+                <h3>Калибратор давления</h3>
+                <div class="block_podrobnee">
+                    <p class="podrobnee_p">Подробнее</p>
+                    <img src="./images/Vector.svg" alt="">
+                </div>
+            </div>
+            <div class="produkcia produkcia_down">
+                <img src="./images/5.svg" alt="" class="img_5">
+                <h3>Корректор расхода газа</h3>
+                <div class="block_podrobnee">
+                    <p class="podrobnee_p">Подробнее</p>
+                    <img src="./images/Vector.svg" alt="">
+                </div>
+            </div>
+            <div class="produkcia produkcia_exit produkcia_down">
+                <img src="./images/6.svg" alt="" class="img_6">
+                <h3>Манометры</h3>
+                <div class="block_podrobnee">
+                    <p class="podrobnee_p">Подробнее</p>
+                    <img src="./images/Vector.svg" alt="" class="img_galochka">
+                </div>
+            </div>
+        </div>
+        <h2 class="predpriyatie_h2">Представительства</h2>
+        <img src="./images/maps.svg" alt="">
+        <h2 class="predpriyatie_h2">Новости</h2>
+        <div class="block_novosty">
+            <div>
+                <img src="./images/images1.svg" alt="">
+                <div class="novosty_fon block_novosty_1">
+                    <h4>НПП «ПИОНЕР» подтвердило свои компетенции в области консультирования и изготовления…</h4>
+                    <div class="novosty_p">
+                        <p class="novosty_chitat">Читать далее</p>
+                        <p class="data">20.07.2020</p>
                     </div>
-                    <a href="#" class="text-decoration-1">
-                        <nav class="buy"></nav>
-                    </a>
-                </nav>
-            </div>
-        </div>
-        <nav class="color">
-            <section class="conteiner display">
-                <img src="./img/ptichka.svg" alt="" class="content">
-                <div class="content1">
-                    <h1 class="zagolovok">Реплики картин от <b class="text-green">Ink. House</b></h1>
-                    <p class="text-zagolovok">Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.
-                    </p>
-                    <a href="#" class="buttom">Продукция</a>
-    
                 </div>
-            </section>
-        </nav>
-    </header>
-    <div class="conteiner padding">
-        <div class="header" id="reprodukciya">
-            <h2 class="text_h2">Репродукции</h2>
-            <div>
-                <button class="scrol_button product_btn" id="francia" data-country="francia">Франция</button>
-                <button class="scrol_button scrol_button_padding product_btn" id="germania" data-country="germania">Германия</button>
-                <button class="scrol_button product_btn" id="england" data-country="england">Англия</button>
-            </div>
-        </div>
-        
-        <div class="blocks francia">
-            <div class="block_1">
-                <img src="./img/francia_1.svg" alt="francia_0" class="img_block" id="img_1">
-                <p class="p_text_block" id="hidojnik_1">Марсель Руссо</p>
-                <h3 class="h3_text_block" id="name_cartoon_1">Охота Амура</h3>
-                <p class="text_block_3" id="material_1">Холст, масло (50х80) </p>
-                <p class="text_denigi_block" id="cena_1">14 500 руб</p>
-               <div class="buttom_block_free">
-                <a href="#" class="buttom_block">В корзину</a>
-               </div>
-            </div>
-
-            <div class="block_1">
-                <img src="./img/francia_2.svg" alt="francia_0" class="img_block" id="img_2">
-                <p class="p_text_block" id="hidojnik_2">Анри Селин</p>
-                <h3 class="h3_text_block" id="name_cartoon_2">Дама с собачкой</h3>
-                <p class="text_block_3" id="material_2">Акрил, бумага (50х80)</p>
-                <p class="text_denigi_block" id="cena_2">16 500 руб</p>
-               <div class="buttom_block_free">
-                <a href="#" class="buttom_block">В корзину</a>
-               </div>
-            </div>
-            <div class="block_1">
-                <img src="./img/francia_3.svg" alt="francia_0" class="img_block" id="img_3">
-                <p class="p_text_block" id="hidojnik_3">Франсуа Дюпон</p>
-                <h3 class="h3_text_block" id="name_cartoon_3">Процедура</h3>
-                <p class="text_block_3" id="material_3">Цветная литография (40х60) </p>
-                <p class="text_denigi_block" id="cena_3">20 000 руб</p>
-               <div class="buttom_block_free">
-                <a href="#" class="buttom_block">В корзину</a>
-               </div>
-            </div>
-            
-            <div class="block_1">
-                <img src="./img/francia_4.svg" alt="francia_0" class="img_block" id="img_4">
-                <p class="p_text_block" id="hidojnik_4">Луи Детуш</p>
-                <h3 class="h3_text_block" id="name_cartoon_4">Роза</h3>
-                <p class="text_block_3" id="material_4">Бумага, акрил (50х80) </p>
-                <p class="text_denigi_block" id="cena_4">12 000 руб</p>
-               <div class="buttom_block_free">
-                <a href="#" class="buttom_block">В корзину</a>
-               </div>
-            </div>
-            <div class="block_1">
-                <img src="./img/francia_5.svg" alt="francia_0" class="img_block" id="img_5">
-                <p class="p_text_block" id="hidojnik_5">Франсуа Дюпон</p>
-                <h3 class="h3_text_block" id="name_cartoon_5">Птичья трапеза</h3>
-                <p class="text_block_3" id="material_5">Цветная литография (40х60) </p>
-                <p class="text_denigi_block" id="cena_5">2 500 руб</p>
-               <div class="buttom_block_free">
-                <a href="#" class="buttom_block">В корзину</a>
-               </div>
-            </div>
-            <div class="block_1">
-                <img src="./img/francia_6.svg" alt="francia_0" class="img_block" id="img_6">
-                <p class="p_text_block" id="hidojnik_6">Пьер Моранж</p>
-                <h3 class="h3_text_block" id="name_cartoon_6">Пейзаж с рыбой</h3>
-                <p class="text_block_3" id="material_6">Цветная литография (40х60) </p>
-                <p class="text_denigi_block" id="cena_6">20 000 руб</p>
-               <div class="buttom_block_free">
-                <a href="#" class="buttom_block">В корзину</a>
-               </div>
-            </div>
-        </div>
-              
-    </div>
-    <div class="background_block" id="newcoiiection">
-        <div class="block_oznaromlenia conteiner">
-            <div class="conteiner_blocka_oznaromlenia">
-                <img src="./img/Star.svg" alt="star">
-                <h2 class="new_collection_text">Новая коллекция французских авторов</h2>
-            </div>
-            <p class="text_p">Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений. <br> <br>
-                Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую востребованность направлений прогрессивного развития.</p>
-            <div class="buttom_oznakomitsy">
-                <a href="#francia" class="buttom_block_oznakomitsy">Ознакомиться</a>
-               </div>
-            
-
-        </div>
-    </div>
-    <div class="nasha_comanda conteiner">
-        <img src="./img/ramka s karandashami.svg" alt="ramka">
-        <div class="naska_komanda_block" id="nasha_comanda">
-            <h2 class="naska_komanda_text text_h2">Наша команда</h2>
-            <p class="text_p_nasha_comanda text_p">Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким активом.</p>
-            <div class="img_nasha_komanda">
-                <img src="./img/nasha_komanda_1.svg" alt="nasha_komanda_1">
-                <img src="./img/nasha_komanda_2.svg" alt="nasha_komanda_2">
-                <img src="./img/nasha_komanda_3.svg" alt="nasha_komanda_3">
-            </div>
-        </div>
-    </div>
-    <div class="background_footer">
-        <div class="footer conteiner">
-            <div>
-                <div class="logo align-items">
-                    <img src="./img/logo.svg" alt="logo">
-                    <a href="#" class="logo-text text">Ink. House</a>
-                </div>
-                <div class="footer_block_telephone">
-                    <p class="footer_padding"><a href="#" class="nomer_telephone">+7 (999) 543-54-54</a></p>
-                <p class="p_text_block footer_masterscay">Мастерская</p>
-                </div>
-            </div>
-            <div class="footer_list_block">
-                <ul class="footer_list">
-                    <li><a href="#" class="footer_text_zaglavnie text-decoration">Репродукции</a></li>
-                    <li><a href="#" class="text-decoration footer_list_text">Франция</a></li>
-                    <li><a href="#" class="text-decoration footer_list_text">Германия</a></li>
-                    <li><a href="#" class="text-decoration footer_list_text">Англия</a></li>
-                </ul>
-                <ul class="footer_list">
-                    <li><a href="#" class="footer_text_zaglavnie text-decoration">Новинки</a></li>
-                    <li><a href="#" class="text-decoration footer_list_text">2021</a></li>
-                    <li><a href="#" class="text-decoration footer_list_text">2020</a></li>
-                </ul>
-                <ul class="footer_list">
-                    <li><a href="#" class="footer_text_zaglavnie text-decoration">О нас</a></li>
-                    <li><a href="#" class="text-decoration footer_list_text">Художники</a></li>
-                    <li><a href="#" class="text-decoration footer_list_text">Менеджеры</a></li>
-                </ul>
             </div>
             <div>
-                <div class="block_socsety">
-                    <a href="#"><img src="./img/facebook.svg" alt="facebook"></a>
-                    <a href="#"><img src="./img/instagram.svg" alt="instagram"></a>
-                    <a href="#"><img src="./img/youtube.svg" alt="youtube"></a>
+                <img src="./images/images2.svg" alt="">
+                <div class="novosty_fon block_novosty_1">
+                    <h4>Поздравляем коллектив регионального представительства «ПИОНЕР» с праздником!</h4>
+                    <div class="novosty_p">
+                        <p class="novosty_chitat">Читать далее</p>
+                        <p class="data">20.07.2020</p>
+                    </div>
                 </div>
-                <p class="footer_text_p">Ink. House ®</p>
-                <p class="footer_text_p">All rights reserved</p>
             </div>
-    
+                <div>
+                    <img src="./images/images3.svg" alt="">
+                    <div class="novosty_fon block_novosty_1">
+                        <h4 class="novosty_h4">Перенос сроков проведения запланированных работ в 2020 году</h4>
+                        <div class="novosty_p">
+                            <p class="novosty_chitat">Читать далее</p>
+                            <p class="data">20.07.2020</p>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
-    <script src="./main.js"></script>
+    <div class="footer">
+        <div class="footer_block">
+            <img src="./images/logo_black.svg" alt="" class="footer_logo">
+            <nav class="footer_ssilki">
+                <ul class="footer_list_1">
+                    <li class="footer_list"><a href="#" class="header_ssilki color_lite">Главная</a></li>
+                    <li class="footer_list"><a href="#" class="header_ssilki color_lite">О предприятии</a></li>
+                    <li class="footer_list"><a href="#" class="header_ssilki color_lite">Новости</a></li>
+                    <li class="footer_list"><a href="#" class="header_ssilki color_lite">Продукция</a></li>
+                    <li class="footer_list"><a href="#" class="header_ssilki color_lite">Услуги</a></li>
+                </ul>
+                <ul class="footer_list_2">
+                    <li class="footer_list"><a href="#" class="header_ssilki color_lite">Поддержка</a></li>
+                    <li class="footer_list"><a href="#" class="header_ssilki color_lite">География поставок</a></li>
+                    <li class="footer_list"><a href="#" class="header_ssilki color_lite">Контакты</a></li>
+                </ul>
+                <ul class="footer_list_3">
+                    <li class="footer_list"><a href="#" class="header_ssilki color_lite">Файлы</a></li>
+                    <li class="footer_list"><a href="#" class="header_ssilki color_lite">Поддержка</a></li>
+                    <li class="footer_list"></li><a href="#" class="header_ssilki color_lite">Политика конфеденциальности</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p class="color_lite footer_text">1994 — 2020 ООО «ПИОНЕР»</p>
+    </div>
 </body>
-
 </html>
