@@ -1,0 +1,532 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #2C2D35;
+    background-color: #F4F6F5;
+}
+h2 {
+    margin: 0;
+}
+h3 {
+    margin: 0;
+}
+.header-fon {
+    background-color: #E1EDE6;
+}
+.conteiner {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-padding {
+    padding: 33px 0 32px 0;
+}
+.logo {
+    align-items: center;
+}
+.align-items {
+    display: flex;
+}
+.logo-text {
+    padding-left: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #598D66;
+}
+.text {
+    font-size: 20px;
+}
+.list {
+    display: flex;
+    column-gap: 60px;
+    list-style: none;
+}
+/*--------------------------------------*/
+/*=============кнопки==================*/
+.header-li {
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.header-li:hover {
+    color:  #598D66;
+}
+
+.header-li:focus {
+    
+    background: #D4E8D9;
+    color: #2C2D35;
+    
+
+
+}
+
+.header-li:active {
+    color: #376B44;
+}
+/*==============кнопки exit===========================*/
+
+
+.buy {
+    width: 24px;
+    height: 24px;
+   
+    background-image: url("./img/buy1.svg");
+    background-repeat: no-repeat;
+}
+
+.buy:hover {
+    background-image: url("./img/buy-color.svg");
+    background-repeat: no-repeat;
+
+}
+.text-decoration-1:focus {
+    
+    background-color: #D4E8D9;
+}
+
+.buy:active{ /*нажатие*/
+    background-image: url("./img/buy-color-finish.svg");
+    background-repeat: no-repeat;
+   
+   
+}
+
+.text-decoration-1 {
+    margin-left: 60px;
+}
+/*---------------------------------------------------*/
+h1 {
+    padding: 0;
+    margin: 0;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+b {
+    font-weight: normal;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+/*==============================*/
+
+.display {
+    display: flex;
+    justify-content: space-between;
+}
+.zagolovok {
+font-size: 60px;
+font-weight: 500;
+line-height: 66px;
+padding-top: 145px;
+}
+.text-green {
+    color: #598D66;
+}
+.text-zagolovok {
+font-size: 18px;
+line-height: 27px;
+color: #86928B;
+padding-top: 20px;
+}
+/*===================================================*/
+.buttom {
+    display: inline-block;
+    padding: 20px 60px 20px 60px;
+    border: 1px solid #598D66;
+    align-items: center;
+    color: #598D66;
+    text-decoration: none;   
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 60px;
+}
+/*------------------hover----------------------*/
+
+
+.buttom:hover {
+   background-color: #598D66;
+   color: #F4F6F5;
+}
+/*------------------hover exit----------------------*/
+
+/*------------------focus----------------------*/
+
+
+.buttom:focus {
+    color: #598D66;
+    background-color: #D4E8D9;
+    border: 1px solid #598D66;
+}
+/*------------------focus exit----------------------*/
+
+/*------------------active----------------------*/
+
+
+.buttom:active {
+    background-color: #376B44;
+    color: #FFFFFF;
+    
+}
+/*------------------active exit----------------------*/
+/*===================================================*/
+.color {
+background-color: #F4F6F5;
+}
+.content {
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+
+/*==================кнопки======================*/
+/*------------------default---------------------*/
+.scrol_button {
+    text-decoration: none;
+    color: #2C2D35;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color:#D4E8D9;
+    border: 0px;
+}
+/*------------------default exit---------------------*/
+
+/*------------------hover----------------------*/
+
+
+.scrol_button:hover {
+    color: #F4F6F5;
+    background-color: #598D66;
+}
+/*------------------hover exit----------------------*/
+
+/*------------------focus----------------------*/
+
+
+.scrol_button:focus {
+    padding: 8px 18px 8px 18px;
+    color: #2C2D35;
+    border: 2px solid #598D66 ;
+}
+/*------------------focus exit----------------------*/
+
+/*------------------active----------------------*/
+
+
+.scrol_button:active,
+.scrol_button.active {
+    color: #F4F6F5;
+    background-color:#376B44;
+    
+}
+/*------------------active exit----------------------*/
+
+/*==================кнопки exit=================================*/
+
+.text_h2 {
+font-size: 40px;
+font-weight: 500;
+line-height: 44px;
+}
+.scrol_button_padding {
+   margin-left: 32px;
+   margin-right: 27px;
+}
+
+/*------------------------------------*/
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+.block_1 {
+    background-color:#E1EDE6;
+    margin-top: 30px;
+    
+}
+.img_block {
+    padding: 20px;
+}
+.p_text_block {
+    padding-left: 20px;
+font-size: 18px;
+color: #86928B;
+width: 162px;
+}
+.h3_text_block {
+    width: 310px;
+    padding: 8px 20px 10px 20px;
+font-size: 30px;
+font-weight: 500;
+}
+.text_block_3 {
+font-size: 18px;
+padding-left: 20px;
+width: 310px;
+}
+.text_denigi_block {
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+padding-left: 20px;
+padding-top: 30px;
+color: #598D66;
+width: 132px;
+}
+.padding {
+    margin-top: 70px;
+}
+.buttom_block {
+    display: block;
+    text-align: center;
+   padding-top: 21px;
+   padding-bottom: 21px;
+    border: 1px solid;
+    border-color: #376B44;
+    align-items: center;
+    color: #598D66;
+    text-decoration: none;   
+    font-size: 20px;
+    line-height: 23px;
+    
+}
+.buttom_block_free {
+    padding: 30px 20px 20px 20px;
+  
+}
+
+.background_block {
+    background-image: url(./img/pic_background.svg);
+    margin: 0 auto;
+    margin-top: 70px;
+    background-size: cover;
+}
+.new_collection_text {  
+    color: #F4F6F5;
+    max-width: 421px;
+font-size: 40px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0em;
+padding-left: 20px;
+
+
+}
+.text_p {
+    color: #FFFFFF;
+    margin-top: 20px;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+max-width: 540px;
+
+
+
+}
+.conteiner_blocka_oznaromlenia {
+    display: flex;
+    padding-top: 70px;
+}
+.buttom_oznakomitsy {
+    max-width: 257px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    
+}
+/*=================кнопки==============================*/
+.buttom_block_oznakomitsy {
+    display: block;
+    text-align: center;
+    padding: 21px 60px;
+    border: 1px solid;
+    border-color: #376B44;
+    align-items: center;
+    text-decoration: none;   
+    font-size: 20px;
+    line-height: 23px;
+    background-color: #EEDB6D;
+    color: #2C2D35;
+
+}
+/*------------------hover----------------------*/
+
+
+.buttom_block_oznakomitsy:hover {
+    background-color: #FAEB97;
+ }
+ /*------------------hover exit----------------------*/
+ 
+ /*------------------focus----------------------*/
+ 
+ 
+ .buttom_block_oznakomitsy:focus {
+     background-color: #FAEB97;
+     border: 1px solid #A38314;
+ }
+ /*------------------focus exit----------------------*/
+ 
+ /*------------------active----------------------*/
+ 
+ 
+ .buttom_block_oznakomitsy:active {
+     background-color: #D9B949;
+ }
+ /*------------------active exit----------------------*/
+/*=================кнопки exit==============================*/
+.nasha_comanda {
+    margin-top: 70px;
+    display: flex;
+}
+.naska_komanda_text {
+    max-width: 281px;
+    padding-top: 124px;
+}
+.naska_komanda_block {
+    padding-left: 30px;
+}
+.text_p_nasha_comanda {
+    color: #2C2D35;
+    max-width: 635px;
+    padding-top: 20px;
+}
+.img_nasha_komanda {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.nomer_telephone { 
+font-size: 20px;
+font-weight: 500;
+line-height: 23px;
+color: #2C2D35;
+text-decoration: none;
+}
+.footer_masterscay {
+    padding: 0px;
+}
+.footer_list_block {
+    display: flex;
+    gap: 60px;
+    padding-bottom: 23px;
+    
+}
+.background_footer {
+    background-color: #E1EDE6;
+    margin-top: 70px;
+}
+.footer {
+    display: flex;
+    padding-top: 23px;
+    justify-content: space-between;
+}
+.footer_text_zaglavnie {
+font-size: 20px;
+font-weight: 500;
+line-height: 23px;
+color: #2C2D35;
+}
+.footer_list {
+    
+list-style: none;
+text-decoration: none;
+}
+.text-decoration {
+    text-decoration: none;
+}
+.footer_list_text {
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+color: #86928B;
+padding-top: 6px;
+
+}
+.footer_text_p {
+font-size: 12px;
+font-weight: 500;
+line-height: 14px;
+color: #86928B;
+padding-bottom: 6px;
+}
+.footer_block_telephone {
+    margin-top: 20px;
+}
+.footer_padding {
+    padding-bottom: 8px;
+}
+.block_socsety {
+    display: flex;
+    gap: 30px;
+    height: 18px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+font-family: 'Raleway', sans-serif;        /*   — устанавливает семейство шрифтов.   */
+
+font-style: normal;           /*   — задаёт стиль шрифта. (normal) - обычный, (italic) - курсив, (oblique) - наклонный   */
+
+font-variant: normal;       /*   — определяет вариант шрифта. (normal) — обычный, (small-caps) — все строчные символы отображаются как заглавные уменьшенного размера.   */
+
+font-weight: normal;       /*   — задаёт жирность шрифта. (normal (400)), (bold (700)) - полужирный.   */
+
+font-size: 21px;          /*   — указывает размер шрифта. Измеряется в пикселях (px), процентах, относительных (em, rem) или абсолютных единицах (pt, cm, mm).   */
+
+line-height: 1.5;        /*   — задаёт высоту строки.   */
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+min-height — минимальная высота блока, меньше которой он не может быть. Если текст добавится, то он растянет блок и полностью поместится.
+text-align в CSS используется для определения горизонтального выравнивания текста внутри элемента.
